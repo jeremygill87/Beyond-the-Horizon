@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Row, Container, Stack } from 'react-bootstrap';
+import EnemyStatus from './EnemyStatus';
+import './Background.css';
 
 class Background extends Component {
     render() {
@@ -7,8 +9,9 @@ class Background extends Component {
             <Container fluid>
         <Row>
             <Stack>
-                <div className='bg-light border'>First Enemy Health and shit</div>
+                <EnemyStatus></EnemyStatus>
             </Stack>   
+            <Col>Enemy Avatars</Col>
         </Row>
         <Row>
             <Col>Player Avatars</Col>
@@ -16,10 +19,10 @@ class Background extends Component {
         </Row>
         <Row>
             <Stack direction='horizontal' gap={8}>
-                <div className='bg-light border'>ATTACK</div>
-                <div className='bg-light border'>ITEM</div>
-                <div className='bg-light border'>INFO</div>
-                <div className='bg-light border'>FLEE</div>
+                <div class='bg-light border'>ATTACK</div>
+                <div class='bg-light border'>ITEM</div>
+                <div class='bg-light border'>INFO</div>
+                <div class='bg-light border'>FLEE</div>
             </Stack>
         </Row>
     </Container>

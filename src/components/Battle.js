@@ -1,4 +1,4 @@
-import * as fighters from './Characters'
+import fighters from './Characters'
 
 const useMove = (player, enemy) => {
     let rand = Math.floor(Math.random() * player.moves.length)
