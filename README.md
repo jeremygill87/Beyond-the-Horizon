@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 # Beyond the Horizon
-Code for a turn-based combat adventure game, akin to Pokémon or old school RPGs
+
+Turn-based combat style adventure RPG, currently under development
 =======
 # Getting Started with Create React App
 
