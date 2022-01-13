@@ -1,20 +1,26 @@
 import React, { Component } from 'react';
-import { Col, Row, Container } from 'react-bootstrap'
+import { Col, Row, Container, Stack } from 'react-bootstrap';
 
-class Background extends React.Component {
+class Background extends Component {
     render() {
         return (
             <Container fluid>
         <Row>
-            <Col>Enemy Status</Col>
-            <Col>Enemy Avatar(s)</Col>
+            <Stack>
+                <div className='bg-light border'>First Enemy Health and shit</div>
+            </Stack>   
         </Row>
         <Row>
             <Col>Player Avatars</Col>
             <Col>Player Status</Col>
         </Row>
         <Row>
-            <Col>PLAYER SELECTION</Col>
+            <Stack direction='horizontal' gap={8}>
+                <div className='bg-light border'>ATTACK</div>
+                <div className='bg-light border'>ITEM</div>
+                <div className='bg-light border'>INFO</div>
+                <div className='bg-light border'>FLEE</div>
+            </Stack>
         </Row>
     </Container>
         )
