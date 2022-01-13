@@ -1,3 +1,5 @@
+import * as fighters from './Characters'
+
 const useMove = (player, enemy) => {
     let rand = Math.floor(Math.random() * player.moves.length)
     let damage = Math.floor(player.moves[rand].movePower * (player.attack/100))
@@ -29,3 +31,5 @@ const battleScenario = (player, enemy) => {
     }
     console.log(`${winner.name} has won the battle!`)
 }
+
+battleScenario(Rook, Starr)
