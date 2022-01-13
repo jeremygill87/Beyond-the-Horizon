@@ -2,6 +2,10 @@
 
 Turn based combat style adventure RPG, currently under development
 
+### Vision
+
+To create a top-down adventure game using turn-based combat and RPG elements to deliver both a satisfying gaming experience and a deep, riveting story. This game will contain the ability to customize teams of adventurers, difficult choices that impact the narrative, and strategy-based gameplay that ensures no two playthroughs will be the same.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
