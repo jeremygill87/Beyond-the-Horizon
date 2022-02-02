@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Background from './components/BattleBoxes/Background'
-import TDMap from './components/TopDownVIew/TDMove';
+import TDMap from './components/TopDownVIew/TDMap';
 
 class App extends Component {
   render() {

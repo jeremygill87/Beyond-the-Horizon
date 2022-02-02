@@ -2,15 +2,7 @@ import React, { Component } from 'react';
 import { Col, Row, Container, Stack } from 'react-bootstrap';
 import Map from '../../images/MapTest.png';
 
-class TDMap extends Component {
-    render() {
-        return (
-            <Container fluid>
-                <img src={Map}></img>
-            </Container>
-        )
-    }
-}
+
 //reference to character and map elements
 var character = document.querySelector('.character');
 var map = document.querySelector('.map');
