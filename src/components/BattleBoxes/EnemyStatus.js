@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
 import fighters from '../Characters';
+import './EnemyStatus.css'
 
 class EnemyStatus extends Component {
     constructor (props) {
@@ -13,11 +14,11 @@ class EnemyStatus extends Component {
     }
 
     render() {
-
-        let healthBar = '-'.repeat(this.state.enemyHealth)
+        
+        let healthBar = '---'.repeat(this.state.enemyHealth)
         return (
-            <Card>
-                <Card.Body>
+            <Card className='statcard'>
+                <Card.Body className='statbar'>
                     <Card.Title>{this.state.enemyName}</Card.Title>
                     <Card.Text>{healthBar}</Card.Text>
                 </Card.Body>

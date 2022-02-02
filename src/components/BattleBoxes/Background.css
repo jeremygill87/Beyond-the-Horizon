@@ -1,5 +1,4 @@
-.enemy-status {
-    text-align: center;
-    color: red;
-    
+.sprite {
+    height: 400px;
+    width: 250px;
 }

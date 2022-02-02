@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Col, Row, Container, Stack } from 'react-bootstrap';
 import EnemyStatus from './EnemyStatus';
 import './Background.css';
+import Rook from '../../images/Rook_r_s.png';
 
 class Background extends Component {
     render() {
@@ -9,15 +10,15 @@ class Background extends Component {
             <Container fluid>
         <Row>
             <Stack>
-                <EnemyStatus></EnemyStatus>
+                <EnemyStatus/>
             </Stack>   
-            <Col>Enemy Avatars</Col>
+            <Col lg={{ span: 4, offset: 4 }}>Enemy Avatars</Col>
         </Row>
         <Row>
-            <Col>Player Avatars</Col>
+            <Col><img src={Rook} className='sprite'></img></Col>
             <Col>Player Status</Col>
         </Row>
-        <Row>
+        <Row >
             <Stack direction='horizontal' gap={8}>
                 <div class='bg-light border'>ATTACK</div>
                 <div class='bg-light border'>ITEM</div>

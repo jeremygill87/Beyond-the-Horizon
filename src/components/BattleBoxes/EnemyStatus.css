@@ -1,0 +1,9 @@
+.statbar {
+    background-color: rgb(219, 215, 157);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.statcard {
+    margin-top: 20px;
+    margin-left: 15px;
+}
