@@ -1,0 +1,17 @@
+.sprite {
+    height: 400px;
+    width: 250px;
+}
+
+.playerStatcard {
+    margin-bottom: 20px;
+    margin-right: 35px;
+    border: 2px solid black;
+    background-color: rgb(219, 215, 157);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.bullshit {
+    background-color: green;
+}

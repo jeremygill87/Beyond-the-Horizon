@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import Background from './components/BattleBoxes/Background'
-import TDMap from './components/TopDownVIew/TDMap';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <TDMap></TDMap>
+        <Background/>
       </div>
     )
   }
