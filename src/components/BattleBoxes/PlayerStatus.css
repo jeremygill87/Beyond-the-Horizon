@@ -12,6 +12,12 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.bullshit {
-    background-color: green;
+.statusRow {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.statusColumn {
+    position: relative;
 }

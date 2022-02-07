@@ -16,14 +16,18 @@ class PlayerStatus extends Component {
     render() {
         let healthBar = '---'.repeat(this.state.playerHealth);
         return (
-            <Row className='playerRow'>
+            <Row>
                 <Col className='playerSpace'><img className='sprite' src={Rook}/></Col>
-                <Col className='bullshit'> BUNCH OF BULLSHIT HERE</Col>
-                <Card className='playerStatcard'>
+                <Col className='statusColumn'>
+                    <Row className='statusRow'>
+                        <Card className='playerStatcard'>
                     <Card.Title>{this.state.playerName}</Card.Title>
                     <Card.Text>{healthBar}</Card.Text>
                 </Card>
-            </Row>
+                    </Row>
+                </Col>
+                </Row>
+                
         )
     }
 }

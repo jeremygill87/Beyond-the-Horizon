@@ -1,0 +1,11 @@
+.selectBox {
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+.selectOptions {
+    margin: 10px;
+    background-color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
