@@ -18,7 +18,10 @@ const fighters = {
             movePower: 50,
             moveAcc: 100
         }
-    ]
+    ],
+        upMovement: [
+            
+        ]
     },
     Starr: {
         name: 'Starr',

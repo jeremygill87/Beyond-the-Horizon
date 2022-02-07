@@ -35,5 +35,3 @@ const placeCharacter = () => {
 
     character.style.transform = `translate3d( ${x*pixelSize}px, ${y*pixelSize}px, 0 )`;
     }
-
-    export default TDMap;
