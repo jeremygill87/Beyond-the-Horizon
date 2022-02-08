@@ -7,6 +7,7 @@ const fighters = {
         speed: 5,
         health: 20,
         moves: [1, 2, 3, 4],
+        sprite: require('../images/Rook.gif'),
         defenses: {
             basic: 1,
             flame: 1,
