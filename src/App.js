@@ -1,14 +1,21 @@
-import React, { Component } from 'react';
-import Background from './components/BattleBoxes/Background'
+import 'react-native-gesture-handler';
+import React from 'react';
+import { View } from 'react-native';
+import Root from './Root';
 
-class App extends Component {
+
+export default class App extends React.Component {
   render() {
     return (
-      <div className='App'>
-        <Background/>
-      </div>
+      <View style={styles.container}>
+        <Root/>
+      </View>
     )
   }
 }
 
-export default App;
+const styles = {
+  container: {
+    flex: 1
+  }
+}
